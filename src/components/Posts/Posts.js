@@ -11,7 +11,7 @@ const Posts = (props) => {
       {/* Map through the posts array returning a Post component at each iteration */}
       {
       posts.map(post =>{
-        return <Post key={post.id} post = {post} likePost = {likePost} />
+        return <Post key={posts.id} post = {post} likePost = {likePost} />
         })
       }
       {/* Check the implementation of Post to see what props it requires! */}
